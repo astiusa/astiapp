@@ -1,0 +1,43 @@
+{
+  "name": "generator-astiapp",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/neurobashing/generator-astiapp",
+  "bugs": "https://github.com/neurobashing/generator-astiapp/issues",
+  "author": {
+    "name": "Gregg Thomason",
+    "email": "threegee@me.com",
+    "url": "https://github.com/neurobashing"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neurobashing/generator-astiapp.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0",
+    "random-words": "0.0.1",
+    "random-string": "~0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
